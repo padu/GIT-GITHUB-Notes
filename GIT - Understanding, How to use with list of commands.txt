@@ -1,0 +1,27 @@
+
+
+GIT : distributed revision-control system.
+
+Git is a peice of software that does version control. It is only installed locally on any machine (Linux, Win, Mac). 
+GitHub, BitBucket etc. are web based implementation of Git, developed by different companies. They function similar to git. They very well support syncing of project between their individual web application and locally installed Git.
+Note: I would be using GitHub remote (online) repository.
+
+
+Features:
+Keeps track of changes to the code.
+Synchronize code between different people.
+Test changes to code without losing original.
+Revert back to older version of code.
+
+
+Learning GIT can be started in 2 ways:
+By creating a local git repository.
+By cloning a remote (online) repository to local machine. [Online Repo: GitHub, BitBucket, Company's Own Server, AWS, etc.]
+
+** Recommended to start with 1st way. This will help you to clearly distinguish between Git & GitHub.
+
+
+
+
+
+

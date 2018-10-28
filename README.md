@@ -1,9 +1,22 @@
 # GIT-GITHUB-Notes
 
-This repo has the notes on usage of Git & GitHub.
+In the followig project my aim is to collaborate all useful git & github resources under one umbrella in short and precise way. This would be represented in form of ref links & notes from various sources.
 
-Notes include:
-List of commands
-Process of using Git & GitHub.
-Syncing project between Git & GitHub
+#Topics (Beginners):
+Topic: Process of learning Git.
+Topic: 
+Topic: GIT - Understanding, How to use with list of commands.
+Topic: Useful Git Commands
+Topic: How to use use GitHub.
+Topic: Understanding the GitHub flow (https://guides.github.com/introduction/flow/)
+Topic: How to sync project between Git & GitHub.
+Topic: 
+
+#Topics (Advanced):
+
+
+
+
+
+
 

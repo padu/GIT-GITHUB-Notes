@@ -1,0 +1,27 @@
+
+
+#Topic: Useful Git Commands
+
+
+1] To check local repository sync status with remote repository. Means to know how can we make sure that our local repository has all the latest updates that are commited by different developers at given instance. 
+
+Method 1:
+Run 'use git remote update' 
+
+-> This command fetches the updated details (References) of remote repository.
+-> Once you get the latest updates from remote repository, we can use below commands to do several things:
+
+1] git status -uno:
+will tell you whether the branch you are tracking is ahead, behind or has diverged.
+If it says nothing, the local and remote are the same.
+
+2] git show-branch *master :
+will show you the commits in all of the branches whose names end in 'master' (eg master and origin/master).
+
+Note: If you use -v with git remote update (git remote -v update) you can see which branches got updated,
+so you don't really need any further commands.
+
+
+Method 2:
+Step 1: Run 'git fetch origin'
+Step 2: Run 'git status'
