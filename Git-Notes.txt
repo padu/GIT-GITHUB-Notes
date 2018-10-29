@@ -1,0 +1,82 @@
+
+
+GIT : Distributed revision-control system.
+
+Git is a peice of software that does version control. It is only installed locally on any machine (Linux, Win, Mac). 
+GitHub, BitBucket etc. are web based implementation of Git, developed by different companies. They function similar to git. They very well support syncing of project between their individual web application and locally installed Git.
+Note: I would be using GitHub remote (online) repository.
+
+
+Features of Git:
+Keeps track of changes to the code.
+Synchronize code between different people.
+Test changes to code without losing original.
+Revert back to older version of code.
+
+
+Learning GIT can be started in 2 ways:
+By creating a local git repository.
+By cloning a remote (online) repository to local machine. [Online Repo: GitHub, BitBucket, Company's Own Server, AWS, etc.]
+
+** Recommended to start with 1st way. This will help you to clearly distinguish between Git & GitHub.
+
+
+Learning Git by creating local Git repository:
+
+Step 1: Install Git.
+
+Step 2: Configure Git.
+Here you configure your Git credentials. 
+
+git config : This command sets the author name and email address respectively to be used with your commits. Execute below commands in Git Bash, by editing the necessary details:
+
+git config –global user.name “[name]” 
+ 
+git config –global user.email “[email address]”  
+
+
+Step 3: Create a Git reposity.
+git init : This command is used to create a git repository.
+
+Three ways:- 
+
+a] To create a new repository using Git Bash: 
+In Git Bash, navigate to the directory location where you want to create a git repository and execute following command
+
+git init [repository name] 
+
+Ex. git init new-repo
+
+This will create a new repository 'new-repo' on the drive location where you execute the command.
+
+
+b] Create a repo of an existing project folder:
+In GIT Bash, navigate to your project folder [Using 'cd' command]. Run 'git init' command.
+Another way to do this is right click on project folder and select 'Git Bash Here' option. Run 'git init' command.
+
+This will add your project folder to local git repository. 
+
+
+c] Cloning a repository from a remote server [Online Repo: GitHub, BitBucket, Company's Own Server, AWS, etc.]
+In Git Bash, navigate to the directory location where you want to make a copy of remote git repository, locally using it's URL.
+
+git clone [url]
+
+
+
+Step 4: Playing with repository. 
+
+Create, Edit, Delete Files in repository.
+
+
+
+Step 5: Adding the changes to the staging area.
+
+git add [file]  : This command adds a specified file to the staging area.
+
+git add *  : This command adds all applicable files to the staging area.
+
+
+
+
+
