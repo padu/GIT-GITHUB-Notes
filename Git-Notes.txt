@@ -76,6 +76,8 @@ git add [file]  : This command adds a specified file to the staging area.
 
 git add *  : This command adds all applicable files to the staging area.
 
+Step 6:
+
 
 
 
